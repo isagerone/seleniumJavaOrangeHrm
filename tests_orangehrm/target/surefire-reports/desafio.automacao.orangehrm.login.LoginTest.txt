@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: desafio.automacao.orangehrm.login.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.029 s <<< FAILURE! - in desafio.automacao.orangehrm.login.LoginTest
+naoLogarUsuarioInvalido  Time elapsed: 0.002 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55796}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\ISABEL~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55796/devtoo..., se:cdpVersion: 131.0.2903.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at desafio.automacao.orangehrm.login.LoginTest.beforeEach(LoginTest.java:17)
+
+naoLogarCamposEmBranco  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55796}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\ISABEL~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55796/devtoo..., se:cdpVersion: 131.0.2903.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at desafio.automacao.orangehrm.login.LoginTest.beforeEach(LoginTest.java:17)
+
+efetuarLoginCredenciaisCorretas  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55796}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\ISABEL~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55796/devtoo..., se:cdpVersion: 131.0.2903.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at desafio.automacao.orangehrm.login.LoginTest.beforeEach(LoginTest.java:17)
+
+naoLogarSenhaInvalida  Time elapsed: 0.001 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55796}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\ISABEL~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55796/devtoo..., se:cdpVersion: 131.0.2903.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+	at desafio.automacao.orangehrm.login.LoginTest.beforeEach(LoginTest.java:17)
+

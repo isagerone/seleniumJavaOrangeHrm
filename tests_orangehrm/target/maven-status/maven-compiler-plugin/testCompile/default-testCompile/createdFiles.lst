@@ -1,0 +1,6 @@
+utils\ScreenshotUtils.class
+desafio\automacao\orangehrm\Admin\AdminPage.class
+desafio\automacao\orangehrm\Admin\AdminTest.class
+desafio\automacao\orangehrm\login\LoginPage.class
+desafio\automacao\orangehrm\login\LoginTest.class
+desafio\automacao\orangehrm\DriverManager.class
