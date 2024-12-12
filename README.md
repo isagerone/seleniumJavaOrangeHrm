@@ -7,7 +7,7 @@ Este projeto é meu primeiro trabalho de automação, desenvolvido para a págin
 - **Selenium**: Framework para automação de testes de aplicações web.  
 - **Java**: Linguagem de programação utilizada para escrever os testes.  
 - **Maven**: Ferramenta de gerenciamento de dependências e automação de builds.  
-- **JUnit/TestNG**: Frameworks para execução e organização de testes automatizados.  
+- **JUnit**: Framework para execução e organização de testes automatizados.  
 - **Microsoft Edge WebDriver**: Driver utilizado para controlar o navegador Edge durante a automação.  
 - **IDE: Visual Studio Code**: Ambiente de desenvolvimento integrado utilizado para escrever e gerenciar o código.  
 
