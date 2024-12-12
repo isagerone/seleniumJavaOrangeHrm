@@ -22,3 +22,16 @@ Este projeto é meu primeiro trabalho de automação, desenvolvido para a págin
 1. Clone este repositório:  
    ```bash
    git clone https://github.com/seu-usuario/orangehrm-login-automation.git
+
+### Principais Funcionalidades
+- Automação do fluxo de login, incluindo:
+- Validação de credenciais corretas.
+- Mensagens de erro para credenciais incorretas.
+- Verificação de campos obrigatórios.
+  
+### Próximos Passos
+- Expandir a cobertura de testes para outras páginas do OrangeHRM.
+- Integrar relatórios de testes com ExtentReports.
+
+#Desenvolvido por Isabella Gerone.
+
