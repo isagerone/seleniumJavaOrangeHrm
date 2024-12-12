@@ -33,5 +33,5 @@ Este projeto é meu primeiro trabalho de automação, desenvolvido para a págin
 - Expandir a cobertura de testes para outras páginas do OrangeHRM.
 - Integrar relatórios de testes com ExtentReports.
 
-### Desenvolvido por Isabella Gerone.
+### Desenvolvido por Isabella Gerone
 
